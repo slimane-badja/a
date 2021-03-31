@@ -161,7 +161,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-  //l'affichage de l'utilisateur qu'il soit connectÃ© ou pas 
+  //l'affichage d'un seul utilisateur qu'il soit connecé ou pas dans la liste des utilisateurs qu'on vas appeller de la meme facon dans l'affichage de la liste en bas  ********
   const User = (props) => {
 
     const {user, onClick} = props;
@@ -218,7 +218,7 @@ const useStyles = makeStyles((theme) => ({
   
 
 
-
+// ********************************** debut des fonctions de chat ********************************************
 export default function Chat() {
     const classes = useStyles();
     const theme = useTheme();
@@ -283,7 +283,7 @@ if(message !==""){
 
 
 
-//l'affichage de la liste des utilisateurs connectÃ© et non connÃ©ctÃ©s
+//************************* l'affichage de la liste des utilisateurs connecté en appellant le const User initiliser en haut *****************
     return (
         <div  className={classes.root}>
              <Grid container  >
@@ -305,8 +305,8 @@ if(message !==""){
           <Divider/>
           <Typography style={{textAlign:'center',padding:20,fontWeight:600}}>Discussions</Typography>
 <List style={{height:310,overflowY:'auto'}}>
-{
-user.users.length > 0 ?
+               {
+               user.users.length > 0 ?
                user.users.map(user => {
                  return (
                  <User
@@ -319,7 +319,7 @@ user.users.length > 0 ?
 
 </List>
       </Paper>
-      {/****************************************************************************** */}
+      {/****************** le debut d'une coneversations et l'emplacement des message ( gauche et droite )****************************************** */}
 
 
 
@@ -359,7 +359,7 @@ user.users.length > 0 ?
 
 
 
-
+{/*****************   le foooter ********* */}
 
 <Box >
 {
@@ -403,6 +403,11 @@ user.users.length > 0 ?
       </Box>
 
       </Grid>
+  
+
+{/*****************   les infros sur le cotes droit  ********* */}
+
+
      <Paper className={classes.profilInfo}>
 
 
