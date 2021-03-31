@@ -1,0 +1,105 @@
+/* .container{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    height: calc(100% - 60px);
+    overflow: hidden;
+    left: 64px;
+    margin-top: 51px;
+
+}
+.listOfUsers{
+    width: 30%;
+    height: 100%;
+    overflow-x: hidden;
+    border-right: 1px solid #ccc;
+    margin-top: 8px;
+}
+.chatArea{
+    width: 70%;
+    height: 95%;
+    overflow-x: hidden;
+    position: relative;
+}
+.chatHeader{
+    position: fixed;
+    width: 70%;
+    height: 40px;
+    background: #50b5ff;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 0.5rem;
+}
+.chatControls{
+    display: flex;
+    position: fixed;
+    width: 60%;
+    height: 60px;
+    bottom: 17px;
+    right: 80px;
+}
+.chatControls textarea{
+    width: 90%;
+    border-radius: 0.5rem;
+}
+.chatControls button{
+    width: 10%;
+    border-radius: 0.5rem;
+}
+
+.displayName{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.displayName.active{
+    background: #ccc;
+}
+
+.displayName .displayPic{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.displayName .displayPic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.messageStyle{
+    background: skyblue;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+
+.messageSections{
+    height: calc(100% - 90px);
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    top: 40px;
+}
+.onlineStatus{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #16e316;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #16e316;
+}
+.onlineStatus.off{
+    background: green;
+    box-shadow: 0 0 0 0;
+} */
